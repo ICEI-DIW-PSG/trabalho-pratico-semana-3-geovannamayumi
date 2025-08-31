@@ -1,3 +1,129 @@
-body {
-    background-color: aquamarine;
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
 }
+
+/* ---------- CABEÇALHO ---------- */
+header {
+    position: relative;
+    width: 100%;
+    height: 145px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-image: url("acervo2.jpg");
+    border-radius: 8px;
+ 
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.627); 
+    z-index: 1;
+}
+
+/* Título */
+header h1 {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-family: Arial,;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Menu */
+.campo_menu {
+    position: relative;
+    z-index: 2;
+}
+
+.campo_menu ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.campo_menu ul li a {
+    text-decoration: none;
+    background:  #ffffffd7;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.campo_menu ul li a:hover {
+    background: #ddcece;
+    color: #ffffff;
+}
+
+/*pesquisa*/
+.pesquisa{
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #ac5151;
+    top: 10px;
+}
+main button {
+    width: 20%;    
+}
+.texto-pesquisa{
+    width: 60%;  
+}
+
+/*intro*/
+.intro{ 
+    display: block;
+    float: right;
+    position: relative;
+    width: 80%; 
+    background-color: antiquewhite;   
+    top: 5px;
+    border-radius: 8px;
+}
+section p{ 
+    position: relative;
+    float: right;
+}
+
+article{
+    float: right;
+    position: relative;
+    width: 80%;
+     text-align: center;
+}
+.obra1{
+    border-radius: 8px;
+    background-color: aqua;
+    left: 50px;
+}
+
+.obra2{
+    border-radius: 8px;
+    background-color: aqua;
+}
+.obra3{
+    border-radius: 8px;
+    background-color: aqua;
+}
+body {
+    background-color: white;
+}
+
+aside{
+    position: fixed;
+    display: block;
+    background-color: #d2b6b6;
+    width: 280px;
+    top: 160px;
+    border-radius: 8px;
+}
+
+
