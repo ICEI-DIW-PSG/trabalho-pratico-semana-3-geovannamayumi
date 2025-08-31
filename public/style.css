@@ -90,18 +90,30 @@ main button {
     top: 5px;
     border-radius: 8px;
 }
+
 section p{ 
     position: relative;
     float: right;
+    display: flex;
+    text-align: justify;
+    max-width: 700px;
    
 }
 section p:first-letter{font-size:xx-large;}
+section img{border-radius: 8px;}
 
 article{
     float: right;
     position: relative;
     width: 80%;
     text-align: center;
+    margin: 15px;
+}
+article img{
+    border-radius: 8px;
+}
+.Titulo{
+    top: 80px;
 }
 .obra1{
     border-radius: 8px;
@@ -139,6 +151,10 @@ aside{
     display: block;
     gap: 20px;
     list-style: none;
+}
+.caixa-categoria ul li{
+    margin-bottom: 30px;
+
 }
 
 .caixa-categoria ul li a {
