@@ -2,6 +2,7 @@
     margin: 1;
     padding: 1;
     box-sizing: border-box;
+    background-image: radial-gradient(white rgb(244, 244, 244));
 }
 
 /* ---------- CABEÇALHO ---------- */
@@ -14,6 +15,7 @@ header {
     justify-content: space-between;
     padding: 0 40px;
     background-image: url("acervo2.jpg");
+    background-repeat: repeat;
     border-radius: 8px;
  
 }
@@ -68,7 +70,7 @@ header h1 {
     float: right;
     position: relative;
     display: block;
-    background-color: #ac5151;
+ 
     top: 10px;
 }
 main button {
@@ -84,38 +86,38 @@ main button {
     float: right;
     position: relative;
     width: 80%; 
-    background-color: antiquewhite;   
+    background-color: rgb(255, 235, 249);   
     top: 5px;
     border-radius: 8px;
 }
 section p{ 
     position: relative;
     float: right;
+   
 }
+section p:first-letter{font-size:xx-large;}
 
 article{
     float: right;
     position: relative;
     width: 80%;
-     text-align: center;
+    text-align: center;
 }
 .obra1{
     border-radius: 8px;
-    background-color: aqua;
+    background-color: rgba(255, 214, 227, 0.699);
     left: 50px;
 }
 
 .obra2{
     border-radius: 8px;
-    background-color: aqua;
+    background-color:rgba(255, 214, 227, 0.699);
 }
 .obra3{
     border-radius: 8px;
-    background-color: aqua;
+    background-color:rgba(255, 214, 227, 0.699);
 }
-body {
-    background-color: white;
-}
+
 
 aside{
     position: fixed;
@@ -127,3 +129,29 @@ aside{
 }
 
 
+
+.caixa-categoria {
+    position: relative;
+    z-index: 2;
+}
+
+.caixa-categoria ul {
+    display: block;
+    gap: 20px;
+    list-style: none;
+}
+
+.caixa-categoria ul li a {
+    text-decoration: none;
+    background:  #ffffffd7;
+    color: #000000;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.caixa-categoria ul li a:hover {
+    background: #ddcece;
+    color: #ffffff;
+}
