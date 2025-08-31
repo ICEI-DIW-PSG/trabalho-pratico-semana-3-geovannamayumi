@@ -2,7 +2,6 @@
     margin: 1;
     padding: 1;
     box-sizing: border-box;
-    background-image: radial-gradient(white rgb(232, 193, 193));
 }
 
 /* ---------- CABEÇALHO ---------- */
@@ -17,7 +16,7 @@ header {
     background-image: url("acervo2.jpg");
     background-repeat: repeat;
     border-radius: 8px;
- 
+
 }
 
 header::before {
@@ -69,7 +68,7 @@ header h1 {
 .pesquisa{
     float: right;
     position: relative;
-    display: block;
+    display: inline;
     top: 10px;
 }
 
@@ -88,6 +87,7 @@ main button {
     background-color: rgb(192, 168, 168);   
     top: 10px;
     border-radius: 8px;
+    display: inline;
 }
 
 section p{ 
@@ -95,11 +95,12 @@ section p{
     float: right;
     display: flex;
     text-align: justify;
-    max-width: 700px;
+    max-width: 710px;
    
 }
-section p:first-letter{font-size:xx-large;}
-section img{border-radius: 8px;}
+section img{
+    border-radius: 8px;    
+}
 
 article {
     display: flex;
@@ -119,7 +120,7 @@ article img{
 }
 .obra1{
     border-radius: 8px;
-    background-color: rgba(227, 195, 195, 0.699);
+    background-color: rgba(255, 238, 238, 0.699);
     left: 50px; 
     border: 3px solid rgb(148, 92, 92); 
     margin: 8px;
@@ -127,13 +128,13 @@ article img{
 
 .obra2{
     border-radius: 8px;
-    background-color:rgba(227, 195, 195, 0.699);
+    background-color: rgba(255, 238, 238, 0.699);
     border: 3px solid rgb(148, 92, 92);
     margin: 8px;
 }
 .obra3{
     border-radius: 8px;
-    background-color:rgba(227, 195, 195, 0.699);
+    background-color: rgba(255, 238, 238, 0.699);
     border: 3px solid rgb(148, 92, 92);
     margin: 8px;
 }

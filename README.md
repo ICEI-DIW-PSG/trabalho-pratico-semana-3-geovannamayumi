@@ -10,17 +10,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Geovanna Mayumi
+- Matricula: 903139
+- Proposta de projeto escolhida: 1.Pessoas e Produções
+- Breve descrição sobre seu projeto: Projeto criado com base nas obras e biografia da escritora COLLEEN HOOVER, com o    intuito de criar um acervo de seus livros.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](HOME.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](print-home.png)
