@@ -2,7 +2,7 @@
     margin: 1;
     padding: 1;
     box-sizing: border-box;
-    background-image: radial-gradient(white rgb(244, 244, 244));
+    background-image: radial-gradient(white rgb(232, 193, 193));
 }
 
 /* ---------- CABEÇALHO ---------- */
@@ -24,7 +24,7 @@ header::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(255, 255, 255, 0.627); 
+    background: rgba(235, 208, 208, 0.627); 
     z-index: 1;
 }
 
@@ -61,7 +61,7 @@ header h1 {
 }
 
 .campo_menu ul li a:hover {
-    background: #ddcece;
+    background: #b19a9a;
     color: #ffffff;
 }
 
@@ -70,9 +70,9 @@ header h1 {
     float: right;
     position: relative;
     display: block;
- 
     top: 10px;
 }
+
 main button {
     width: 20%;    
 }
@@ -82,12 +82,11 @@ main button {
 
 /*intro*/
 .intro{ 
-    display: block;
     float: right;
     position: relative;
     width: 80%; 
-    background-color: rgb(255, 235, 249);   
-    top: 5px;
+    background-color: rgb(192, 168, 168);   
+    top: 10px;
     border-radius: 8px;
 }
 
@@ -102,13 +101,16 @@ section p{
 section p:first-letter{font-size:xx-large;}
 section img{border-radius: 8px;}
 
-article{
-    float: right;
-    position: relative;
-    width: 80%;
+article {
+    display: flex;
     text-align: center;
     margin: 15px;
+    float: right;
+    position: relative;
+    width: 80%;  
+    top: 35px;
 }
+
 article img{
     border-radius: 8px;
 }
@@ -117,17 +119,23 @@ article img{
 }
 .obra1{
     border-radius: 8px;
-    background-color: rgba(255, 214, 227, 0.699);
-    left: 50px;
+    background-color: rgba(227, 195, 195, 0.699);
+    left: 50px; 
+    border: 3px solid rgb(148, 92, 92); 
+    margin: 8px;
 }
 
 .obra2{
     border-radius: 8px;
-    background-color:rgba(255, 214, 227, 0.699);
+    background-color:rgba(227, 195, 195, 0.699);
+    border: 3px solid rgb(148, 92, 92);
+    margin: 8px;
 }
 .obra3{
     border-radius: 8px;
-    background-color:rgba(255, 214, 227, 0.699);
+    background-color:rgba(227, 195, 195, 0.699);
+    border: 3px solid rgb(148, 92, 92);
+    margin: 8px;
 }
 
 
@@ -139,8 +147,6 @@ aside{
     top: 160px;
     border-radius: 8px;
 }
-
-
 
 .caixa-categoria {
     position: relative;
@@ -170,4 +176,26 @@ aside{
 .caixa-categoria ul li a:hover {
     background: #ddcece;
     color: #ffffff;
+}
+
+.footer {  
+  color: #945b5b;         
+  padding: 20px;
+  text-align: center;
+  margin-top: 750px;      
+}
+
+.footer a {
+  color: #000000;         
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
 }
